@@ -1,0 +1,10 @@
+[package]
+name = "isonfire-bot"
+version = "0.1.0"
+authors = ["Igor Gonçalves <igor_goncalves@live.com>"]
+
+[dependencies]
+telegram-bot = "0.6.1"
+futures = "0.1.18"
+tokio-core = "0.1.12"
+dotenv = "0.11.0"
