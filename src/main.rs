@@ -9,7 +9,7 @@ fn main() {
     
     dotenv().ok();
     let token = env::var("TELEGRAM_BOT_TOKEN").unwrap();    
-    telegram::telegram::init(token);    
+    telegram::init(token);    
 
 }
 
