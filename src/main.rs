@@ -6,10 +6,8 @@ use std::env;
 mod telegram;
 
 fn main() {
-    
     dotenv().ok();
-    let token = env::var("TELEGRAM_BOT_TOKEN").unwrap();    
-    telegram::init(token);    
-
+    let token = env::var("TELEGRAM_BOT_TOKEN").unwrap();
+    telegram::init(token);
 }
 
